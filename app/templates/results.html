@@ -1,0 +1,30 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+<h2>Benchmark Ergebnisse</h2>
+<p>Simulationsdurchläufe: {{ results.iterations }}</p>
+<p>Durchschnittlich gespielte Karten pro Spiel: {{ results.avg_cards_played }}</p>
+<p>Durchschnittlich verwendetes Mana pro Spiel: {{ results.avg_mana_used }}</p>
+
+<h3>Details:</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Zug</th>
+            <th>Karten gespielt</th>
+            <th>Mana verwendet</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for detail in results.details %}
+        <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ detail.cards_played }}</td>
+            <td>{{ detail.mana_used }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<a href="/">Neuen Benchmark starten</a>
+{% endblock %}
+

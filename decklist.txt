@@ -1,0 +1,64 @@
+﻿1 Academy Ruins (TSP) 269
+1 Argivian Restoration (2XM) 42 *F*
+1 Awakened Amalgam (RIX) 175
+1 Buried Ruin (JMP) 491
+1 Cranial Plating (2XM) 245
+1 Cryptic Gateway (DMR) 218
+1 Darkslick Shores (ONE) 372
+1 Darksteel Citadel (DDF) 72
+1 Darksteel Juggernaut (BRC) 137
+1 Dimir Signet (LCC) 302
+1 Dowsing Dagger // Lost Vale (XLN) 235
+2 Drowned Catacomb (M11) 224
+1 Encroaching Mycosynth (ONE) 47
+1 Etherium Sculptor (DDU) 37
+1 Everflowing Chalice (DDF) 60
+1 Fabricate (40K) 181 *F*
+1 Foundry Inspector (CMR) 310
+1 Golden Guardian // Gold-Forge Garrison (RIX) 179
+1 Hostile Hostel // Creeping Inn (MID) 264
+1 Infernal Grasp (MID) 107
+3 Island (C15) 329
+1 Kappa Cannoneer (NEC) 14
+1 Karn, Scion of Urza (DOM) 1
+1 Liberator, Urza's Battlethopter (BRO) 237 *F*
+1 Lux Cannon (2XM) 268
+1 Manifold Key (M20) 230
+1 Master of Etherium (MOC) 226
+1 Mechanized Production (AER) 38
+1 Mirrodin Besieged (MH1) 57
+1 Mistvault Bridge (MH2) 249
+1 Myr Battlesphere (DDU) 57
+1 Negate (RIX) 44
+1 Nettlecyst (MH2) 231
+1 Otawara, Soaring City (NEO) 271
+1 Pithing Needle (RTR) 231
+1 Power Depot (MH2) 251
+1 Pull from Tomorrow (AKH) 65
+1 Quicksmith Spy (AER) 41
+1 Sai, Master Thopterist (M19) 69
+1 Sculpting Steel (MOC) 374
+1 Seat of the Synod (DDF) 74
+1 Soul Transfer (NEO) 122 *F*
+1 Steel Overseer (M20) 239
+3 Swamp (M19) 271
+1 Takenuma, Abandoned Mire (NEO) 416
+1 Talisman of Dominance (WHO) 250
+1 Tezzeret the Seeker (DDF) 39 *F*
+1 Tezzeret, Master of Metal (AER) 190 *F*
+1 Tezzeret, Master of the Bridge (WAR) 275 *F*
+1 Tezzeret's Betrayal (AER) 191
+1 Thaumatic Compass // Spires of Orazca (XLN) 249
+1 The Everflowing Well // The Myriad Pools (LCI) 56
+1 The Mycosynth Gardens (PONE) 256s *F*
+1 Treasure Map // Treasure Cove (LCI) 267
+1 Treasure Vault (PAFR) 261p
+1 Unwinding Clock (BRR) 61
+1 Urza, Lord High Artificer (CMM) 130
+1 Vault of Whispers (MRD) 286
+1 Voltaic Key (M11) 219
+
+SIDEBOARD:
+1 Aether Gust (M20) 42
+1 Grafdigger's Cage (M20) 227
+1 Relic of Progenitus (MMA) 213

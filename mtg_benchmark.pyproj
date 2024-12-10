@@ -4,13 +4,16 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ca1619df-1550-422f-bfd2-872d90ce054e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>mtg_benchmark.py</StartupFile>
+    <StartupFile>run.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>mtg_benchmark</Name>
     <RootNamespace>mtg_benchmark</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.12</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
+    <SuppressPackageInstallationPrompt>True</SuppressPackageInstallationPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +24,31 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="mtg_benchmark.py" />
+    <Compile Include="app\benchmark.py" />
+    <Compile Include="app\card_fetcher.py" />
+    <Compile Include="app\deck_parser.py" />
+    <Compile Include="app\routes.py" />
+    <Compile Include="app\simulation.py" />
+    <Compile Include="app\test.py" />
+    <Compile Include="app\__init__.py" />
+    <Compile Include="run.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\" />
+    <Folder Include="static\" />
+    <Folder Include="app\templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="decklist.txt" />
+    <Content Include="requirements.txt" />
+    <Content Include="static\style.css" />
+    <Content Include="app\templates\about.html" />
+    <Content Include="app\templates\index.html" />
+    <Content Include="app\templates\layout.html" />
+    <Content Include="app\templates\results.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.12" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

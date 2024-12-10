@@ -1,0 +1,15 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+
+<form method="POST" action="/benchmark">
+    <label for="decklist">Deckliste (automatisch geladen aus decklist.txt):</label>
+    <textarea id="decklist" class="wide-textarea" name="decklist" rows="40" readonly>{{ decklist }}</textarea>
+    <br>
+    <label for="iterations">Simulationsdurchläufe:</label>
+    <input type="number" id="iterations" name="iterations" value="100" min="10" max="1000">
+    <br>
+    <button type="submit">Benchmark starten</button>
+</form>
+
+{% endblock %}
