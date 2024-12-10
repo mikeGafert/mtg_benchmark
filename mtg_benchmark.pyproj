@@ -45,6 +45,7 @@
   <ItemGroup>
     <Content Include="decklist.txt" />
     <Content Include="requirements.txt" />
+    <Content Include="start_gunicorn.sh" />
     <Content Include="static\style.css" />
     <Content Include="app\templates\about.html" />
     <Content Include="app\templates\index.html" />
