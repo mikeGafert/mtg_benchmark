@@ -12,7 +12,7 @@ def load_test_decklist():
         with open("decklist.txt", "r", encoding="utf-8") as file:
             return file.read()
     except FileNotFoundError:
-        return "1 Plains (DDN) 81\n"  # Fallback if the test file is missing
+        return "TestFileNotFound\n"  # Fallback if the test file is missing
 
 @app.route("/")
 def index():

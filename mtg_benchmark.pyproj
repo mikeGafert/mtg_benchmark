@@ -14,6 +14,9 @@
     <InterpreterId>Global|PythonCore|3.12</InterpreterId>
     <TestFramework>Pytest</TestFramework>
     <SuppressPackageInstallationPrompt>True</SuppressPackageInstallationPrompt>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <Environment>FLASK_APP=run.py</Environment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -32,6 +35,7 @@
     <Compile Include="app\test.py" />
     <Compile Include="app\__init__.py" />
     <Compile Include="run.py" />
+    <Compile Include="wsgi.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />
